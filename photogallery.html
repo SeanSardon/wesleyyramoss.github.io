@@ -19,6 +19,21 @@ loop="true"
 autostart="true"
 hidden="true"
 mastersound>
+			
+			<script>
+	window.alert("Hi guys 👋🏾! Hope u have a awesome day 🧨!! Please enjoy my website 💻!!!");
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	var currentScrollPos = window.pageYOffset;
+	if (prevScrollpos > currentScrollPos) {
+		document.getElementById("navbar").style.top = "0";
+	} else {
+		document.getElementById("navbar").style.top = "-50px";
+	}
+		prevScrollpos = currentScrollPos;
+	}
+</script>
+			
 			<p style="font-size:100%;text-align:center;">In order to share my passion for photography, I have been using the app VSCO as a portfolio for my work. Here is some examples.</p>
 			<p style="text-align:center;">Here are the Photos VSCO reposted</p>
 			<p align="center">
