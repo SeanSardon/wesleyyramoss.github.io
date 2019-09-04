@@ -26,6 +26,20 @@ autostart="true"
 hidden="true"
 mastersound>
 					
+			<script>
+	window.alert("You look amazing today! Remember to drink water! Welcome to my site!(◡‿◡✿)");
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	var currentScrollPos = window.pageYOffset;
+	if (prevScrollpos > currentScrollPos) {
+		document.getElementById("navbar").style.top = "0";
+	} else {
+		document.getElementById("navbar").style.top = "-50px";
+	}
+		prevScrollpos = currentScrollPos;
+	}
+</script>
+					
 				<p align="center">
 			<img src="0626B119-1E16-46C7-909C-FA658B2C032A (1).jpeg" height="400" width="400">
 			        <p>Hi my full name is Wesley Ramos Jr. I  was born on Novermber 5, 2004 and i'm
