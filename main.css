@@ -1,6 +1,8 @@
 body {
     margin: 60px auto;
     width: 70%;
+    
+/*these are the fonts I used*/
 }
 nav ul, footer ul {
     font-family: 'Monospace','Helvetica', 'Arial', 'Sans-Serif';
@@ -23,6 +25,7 @@ h1 {
     font-size: 3em;
     font-family: 'Monospace','Helvetica', 'Arial', 'Sans-Serif';
 }
+/*I kept the font color black so it would look modern, proffesional, and not too distracting*/
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -41,6 +44,7 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+/*I used a beige looking color for my photo border so it could pop out but not pop up too much*/
 }
 
 .border { border-width: 10px; border-color: bisque; border-style: solid; } 
